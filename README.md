@@ -1,6 +1,6 @@
 # DAG Research
 
-Docs Augmented Generation (DAG) proposes a simple thesis: **curated, structured documentation is better context for AI code generation than RAG or raw prompt engineering**.
+[Docs Augmented Generation](https://github.com/mbaquerizo/docs-augmented-generation) (DAG) proposes a simple thesis: **curated, structured documentation is better context for AI code generation than RAG or raw prompt engineering**.
 
 Instead of retrieving arbitrary text chunks by similarity, you deliberately write a ticket with structured fields, link it to an ADR that captures architectural decisions, and include a code exploration that maps the relevant parts of the codebase. The model reads those docs and generates code informed by them.
 
